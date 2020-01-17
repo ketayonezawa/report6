@@ -5,6 +5,6 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args){
         GameMaster gameMaster = new GameMaster();
-        gameMaster.deckBuild();
+        gameMaster.makeDeck(gameMaster.deckBuild());
     }
 }
