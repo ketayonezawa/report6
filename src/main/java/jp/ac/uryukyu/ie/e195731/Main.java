@@ -7,6 +7,6 @@ public class Main {
         GameMaster gameMaster = new GameMaster();
         gameMaster.deckBuild();
         gameMaster.makeDeck();
-        gameMaster.run();
+
     }
 }
