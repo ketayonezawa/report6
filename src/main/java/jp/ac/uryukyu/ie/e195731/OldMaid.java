@@ -41,7 +41,7 @@ public class OldMaid {
                 break;
             }
         }checkEnemyGame(deck);
-}
+    }
 
     /**
      * 入力をするメソッド

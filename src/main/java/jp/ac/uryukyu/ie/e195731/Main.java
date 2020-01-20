@@ -1,7 +1,5 @@
 package jp.ac.uryukyu.ie.e195731;
 
-import java.util.ArrayList;
-
 /**
  * メインのクラス
  */
@@ -10,6 +8,8 @@ public class Main {
         GameMaster gameMaster = new GameMaster();
         gameMaster.deckBuild();
         gameMaster.makeDeck();
+   //     gameMaster.checkDuplications(gameMaster.getMydeck());
+  //      gameMaster.checkDuplications(gameMaster.getEnemydeck());
         gameMaster.run();
     }
 }

@@ -1,8 +1,5 @@
 package jp.ac.uryukyu.ie.e195731;
 
-import com.sun.org.apache.bcel.internal.generic.ANEWARRAY;
-
-
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -88,8 +85,8 @@ public class GameMaster {
             }
             int x = random.nextInt(this.deck.size());
             if (turn ==true){
-            turn =false;
-            mydeck.add(deck.get(x));}else{
+                turn =false;
+                mydeck.add(deck.get(x));}else{
                 turn =true;
                 enemydeck.add(this.deck.get(x));
             }
